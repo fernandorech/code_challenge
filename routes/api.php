@@ -9,4 +9,3 @@ Route::get('/project', [ProjectController::class, 'index']);
 
 
 
-Route::post('login', [LoginController::class, 'login']);
