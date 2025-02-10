@@ -14,8 +14,8 @@ class ProjectSeeder extends Seeder
 
         for ($i = 0; $i < 100; $i++) {
             Project::create([
-                'name' => $faker->sentence(3), // Nome com 3 palavras
-                'description' => $faker->paragraph(4), // Descrição com 4 frases
+                'name' => $faker->sentence(3),
+                'description' => $faker->paragraph(4),
             ]);
         }
     }
